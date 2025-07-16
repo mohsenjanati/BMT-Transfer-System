@@ -59,14 +59,7 @@ All rights reserved. Unauthorized duplication, reverse engineering, or financial
 **فارسی:**  
 کلیه حقوق محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از این سیستم، غیرقانونی بوده و پیگرد قانونی خواهد داشت.
 
----
 
-## 💾 Install Now | نصب فوری
-
-Paste this command in your Linux terminal:
-
-```bash
-bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/install.sh)
 
 
 
@@ -90,10 +83,16 @@ bmt
 
 
 
+
+  🚀 Powered by Real Banking Protocols – Built for Speed, Security, and Global Compliance 🌍
+
+
 ---
 
-<p align="center">
-  🚀 Powered by Real Banking Protocols – Built for Speed, Security, and Global Compliance 🌍
-</p>
-```
----
+## 💾 Install Now | نصب فوری
+
+Paste this command in your Linux terminal:
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/install.sh)
+

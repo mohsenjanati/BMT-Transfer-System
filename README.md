@@ -67,3 +67,33 @@ Paste this command in your Linux terminal:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/install.sh)
+
+
+
+
+After installation, just type:
+
+bmt
+
+✅ And start your secure banking operations immediately.
+
+
+---
+
+👤 Developer & Contact
+
+🧑‍💻 Developed by: Mohsen Janati
+
+🔗 GitHub: github.com/mohsenjanati
+
+📬 Telegram: t.me/blackshoters
+
+
+
+---
+
+<p align="center">
+  🚀 Powered by Real Banking Protocols – Built for Speed, Security, and Global Compliance 🌍
+</p>
+```
+---

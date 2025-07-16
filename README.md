@@ -56,6 +56,30 @@ This project is protected by law. Unauthorized copying, reverse engineering, or 
 **FA:**  
 کلیه حقوق این پروژه محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از سیستم، غیرقانونی و مشمول پیگرد قضایی خواهد بود.
 
+
+🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+
+
+📌 بعد از نصب، فقط این دستور را در ترمینال وارد کنید:
+
+ `bmt ` 
+ 
+🚀 Start transferring securely – across protocols and gateways worldwide.
+  
+## 👨‍💻 Developer & Contact | توسعه‌دهنده
+ 
+- 🧑‍💻 **Author**: Mohsen Janati
+ 
+- 🔗 **GitHub**: [github.com/mohsenjanati](https://github.com/mohsenjanati)
+ 
+- 📬 **Telegram**: [blackshoters](https://t.me/blackshoters)
+ 
+
+  
+### 🌐 Powered by Real Banking Protocols – Built for Speed, Security & Compliance 🌐
+ ```
+
+
 ---
 
 ## ⚙️ Installation | نصب سریع
@@ -64,3 +88,4 @@ This project is protected by law. Unauthorized copying, reverse engineering, or 
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/bmt.sh)
+  

@@ -64,9 +64,10 @@ All rights reserved. Unauthorized duplication, reverse engineering, or financial
 
 
 
-After installation, just type:
+After installation, just type :         
+بعد از نصب حتما این دستور را وارد کنید تا اجرا شود👿
 
-bmt
+bmt  👈
 
 ✅ And start your secure banking operations immediately.
 
@@ -93,6 +94,5 @@ bmt
 
 Paste this command in your Linux terminal:
 
-```bash
-bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/bmt.sh)
 

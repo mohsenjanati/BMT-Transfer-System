@@ -1,7 +1,6 @@
 # BMT-Transfer-System
 Multi-method secure bank money transfer automation tool
 
-
 <h1 align="center">💸 BMT - Bank Money Transfer System</h1>
 <p align="center">
   🔐 Real-Time, Multi-Gateway, Cross-Protocol Banking Transfer Engine
@@ -11,88 +10,57 @@ Multi-method secure bank money transfer automation tool
 
 ## 🌍 Overview | معرفی کلی
 
-**ENGLISH:**  
-**BMT** is the world’s first fully-integrated, multi-protocol banking transfer script supporting **SOAP/XML**, **REST/JSON**, **SWIFT**, **ISO 20022**, **Open Banking**, and **Blockchain**.  
-It enables secure and structured financial transactions between banking servers with advanced control over ports, protocols, logs, and PDF confirmations.
+### 🌐 English:
+**BMT** is the **world’s first fully-integrated, multi-protocol** banking transaction automation system — supporting **SOAP/XML**, **REST/JSON**, **SWIFT/MT**, **ISO 20022**, **Open Banking**, and **Blockchain** technologies.  
+It performs real financial operations securely across **real-world Iranian and international banks**, with automatic **port scanning**, **multi-phase transaction support**, **legal PDF confirmation**, and **interactive CLI** – all in one smart script.
 
-**فارسی:**  
-**BMT** اولین اسکریپت جامع، واقعی و چندمنظوره در سطح جهانی است که عملیات بانکی را از طریق پروتکل‌های مختلف مانند **SOAP/XML**، **REST/JSON**، **سوئیفت (SWIFT)**، **ISO 20022**، **بانکداری باز** و **بلاکچین** انجام می‌دهد.  
-این ابزار، عملیات مالی را به صورت امن، دقیق و مرحله‌ای بین بانک‌ها و سرورها اجرا می‌کند و شامل کنترل کامل روی پورت‌ها، لاگ‌ها و تولید تأییدیه قانونی می‌باشد.
-
----
-
-## 🚀 Key Features | ویژگی‌های کلیدی
-
-### 🔹 English
-
-- 🔁 Supports full banking transaction cycle (pay, verify, settle, reverse)
-- 🌐 Protocol support: SOAP, REST, ISO 20022, SWIFT, Blockchain
-- 🏦 Connects to real banks: Mellat, Refah, Maskan, Shaparak
-- 📄 Auto PDF confirmation after successful transfer
-- 🔍 Real port scanner for all banking ports (21, 80, 443, 8443, etc.)
-- 💬 Interactive command-line interface (CLI)
-- 🔒 No hardcoded passwords, secure runtime entry
-- 📦 Fully modular – extendable to any future method or bank
-- 🕹️ One-line installation and clean uninstallation
-- ✨ Multi-language UX (English + Persian)
-
-### 🔹 فارسی
-
-- 🔁 پشتیبانی از کل چرخه‌ی تراکنش بانکی (درخواست، تأیید، تسویه، بازگشت)
-- 🌐 پشتیبانی از پروتکل‌های جهانی: SOAP، REST، ISO، SWIFT، بلاکچین
-- 🏦 اتصال مستقیم به بانک‌ها و درگاه‌های واقعی (ملت، رفاه، مسکن، شاپرک)
-- 📄 تولید خودکار فایل PDF تأییدیه با مهر قانونی
-- 🔍 اسکن واقعی تمام پورت‌های بانکی داخلی و خارجی
-- 💬 منوی تعاملی و ساده در خط فرمان
-- 🔒 بدون ذخیره‌ی رمز در کد – کاملاً ایمن
-- 📦 ساختار ماژولار و قابل توسعه
-- 🧩 نصب با یک خط – حذف کامل و تمیز
-- ✨ محیط چندزبانه (انگلیسی و فارسی)
+### 🌐 فارسی:
+**BMT** اولین سیستم واقعی، خودکار و چندپروتکلی در دنیاست که تراکنش‌های بانکی را با استانداردهای جهانی و اتصال مستقیم به بانک‌های واقعی (ملت، رفاه، مسکن، شاپرک) انجام می‌دهد.  
+از تولید تأییدیه PDF گرفته تا اسکن پورت‌های بانکی، ساختار ماژولار و امنیت بالا، همه در یک اسکریپت تعاملی و شیک!
 
 ---
 
-## 📛 Copyright & Legal Notice | اطلاعیه حقوقی
+## 🚀 Features | ویژگی‌ها
 
-**ENGLISH:**  
-All rights reserved. Unauthorized duplication, reverse engineering, or financial misuse of this system is strictly prohibited and will lead to legal action.
+### ✅ English Features:
+- 🔁 **Full Transaction Cycle**: Pay, Verify, Settle, Reverse
+- 🌐 **Protocols**: SOAP/XML, REST/JSON, SWIFT/MT, ISO 20022, Blockchain
+- 🏦 **Live Integration**: Mellat, Refah, Maskan, Shaparak
+- 📄 **Auto PDF Confirmation** with Legal Footer
+- 🔍 **Banking Port Scanner**: 21, 443, 8443, etc.
+- 💬 **Interactive CLI Menu** – Fast & Easy to Use
+- 🔒 **No Hardcoded Secrets** – Input at Runtime
+- 📦 **Modular Design** – Easy to Extend
+- 🧩 **One-Line Install** – Clean, No Clutter
+- 🌍 **Multi-Language UI** – English + Persian
 
-**فارسی:**  
-کلیه حقوق محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از این سیستم، غیرقانونی بوده و پیگرد قانونی خواهد داشت.
-
-
-
-
-
-
-After installation, just type :         
-بعد از نصب حتما این دستور را وارد کنید تا اجرا شود👿
-
-bmt  👈
-
-✅ And start your secure banking operations immediately.
-
-
----
-
-👤 Developer & Contact
-
-🧑‍💻 Developed by: Mohsen Janati
-
-🔗 GitHub: github.com/mohsenjanati
-
-📬 Telegram: t.me/blackshoters
-
-
-
-
-  🚀 Powered by Real Banking Protocols – Built for Speed, Security, and Global Compliance 🌍
-
+### ✅ ویژگی‌های فارسی:
+- 🔁 اجرای کامل چرخه‌ی تراکنش: پرداخت، تأیید، تسویه، بازگشت وجه
+- 🌐 پشتیبانی از پروتکل‌های بانکی جهانی: SOAP، REST، ISO، SWIFT، بلاکچین
+- 🏦 اتصال واقعی به درگاه‌های بانکی ایران: ملت، رفاه، مسکن، شاپرک
+- 📄 تولید خودکار تأییدیه PDF با مهر قانونی و پیام موفقیت
+- 🔍 اسکن هوشمند پورت‌های مهم بانکی: 21، 443، 8443 و بیشتر
+- 💬 رابط تعاملی در ترمینال (CLI) – سریع، ساده، کاربردی
+- 🔒 بدون رمزهای ذخیره‌شده – کاملاً ایمن در لحظه
+- 📦 ساختار ماژولار و قابل ارتقا
+- 🧩 نصب آسان با یک خط دستور
+- 🌍 رابط کاربری دو زبانه: فارسی + انگلیسی
 
 ---
 
-## 💾 Install Now | نصب فوری
+## 🛡️ Legal Notice | اطلاعیه قانونی
 
-Paste this command in your Linux terminal:
+**EN:**  
+This project is protected by law. Unauthorized copying, reverse engineering, or misuse of the system for financial fraud is strictly prohibited.
 
+**FA:**  
+کلیه حقوق این پروژه محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از سیستم، غیرقانونی و مشمول پیگرد قضایی خواهد بود.
+
+---
+
+## ⚙️ Installation | نصب سریع
+
+> 💡 Just copy, paste, and run – installs everything instantly!
+
+```bash
 bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/bmt.sh)
-

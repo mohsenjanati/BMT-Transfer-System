@@ -57,7 +57,19 @@ This project is protected by law. Unauthorized copying, reverse engineering, or 
 کلیه حقوق این پروژه محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از سیستم، غیرقانونی و مشمول پیگرد قضایی خواهد بود.
 
 
-🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+
+
+## ⚙️ Installation | نصب سریع
+
+> 🧠 Just copy & paste the command below in your terminal.  
+> 💡 فقط این دستور را در ترمینال وارد کنید:
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/bmt.sh)
+```
+
+
+🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
 
 
 📌 بعد از نصب، فقط این دستور را در ترمینال وارد کنید:
@@ -78,14 +90,3 @@ This project is protected by law. Unauthorized copying, reverse engineering, or 
   
 ### 🌐 Powered by Real Banking Protocols – Built for Speed, Security & Compliance 🌐
  ```
-
-
----
-
-## ⚙️ Installation | نصب سریع
-
-> 💡 Just copy, paste, and run – installs everything instantly!
-
-```bash
-bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/bmt.sh)
-  

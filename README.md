@@ -89,4 +89,3 @@ bash <(curl -s https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-Syste
 
   
 ### 🌐 Powered by Real Banking Protocols – Built for Speed, Security & Compliance 🌐
- ```

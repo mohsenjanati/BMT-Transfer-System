@@ -64,21 +64,27 @@ This project is protected by law. Unauthorized copying, reverse engineering, or 
 > 🧠 Just copy & paste the command below in your terminal.  
 > 💡 فقط این دستور را در ترمینال وارد کنید:
 
-```bash
-curl -O https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/install.sh && bash install.sh
 
-```
+# 1️⃣ کلون یا دانلود فایل از GitHub
+git clone https://github.com/mohsenjanati/BMT-Transfer-System.git
+cd BMT-Transfer-System
+
+# 2️⃣ یا اگر فایل ZIP رو دستی دانلود کردید:
+unzip BMT-Transfer-System-Final-Encrypted.zip
+cd BMT-Transfer-System
+
+# 3️⃣ اجرای اسکریپت نصب
+chmod +x install_bmt.sh
+./install_bmt.sh
+
+# 🛡️ در این مرحله، رمز نصب از شما خواسته می‌شود:
+# 👉 رمز نصب: به آیدی تلگرام توسعه دهنده پیام دهید / please send a massage telegram
+
+# ✅ پس از وارد کردن رمز، سیستم به‌طور کامل نصب و اجرا خواهد شد.
 
 
 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
 
-
-📌 بعد از نصب، فقط این دستور را در ترمینال وارد کنید:
-
- `bmt ` 
- 
-🚀 Start transferring securely – across protocols and gateways worldwide.
-  
 ## 👨‍💻 Developer & Contact | توسعه‌دهنده
  
 - 🧑‍💻 **Author**: Mohsen Janati

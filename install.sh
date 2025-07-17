@@ -1,31 +1,39 @@
 #!/bin/bash
 
-echo "🔐 Enter installation password:"
-read -s input_password
+# رنگ‌ها
+GREEN="\e[32m"
+RED="\e[31m"
+NC="\e[0m"
 
-expected_password="bmt1022711"
+echo -e "${GREEN}🔐 BMT - Bank Money Transfer System Installer${NC}"
+echo
 
-if [[ "$input_password" != "$expected_password" ]]; then
-  echo "❌ Incorrect password. Installation aborted."
+# نصب ابزارهای مورد نیاز
+echo -e "${GREEN}📦 Installing required packages...${NC}"
+apt-get update -y
+apt-get install -y curl unzip git whiptail
+
+# ساخت دایرکتوری مقصد
+INSTALL_DIR="/opt/bmt-transfer-system"
+mkdir -p $INSTALL_DIR
+cd $INSTALL_DIR
+
+# دریافت فایل ZIP پروژه
+echo -e "${GREEN}⬇️ Downloading bmt.zip...${NC}"
+curl -L -o bmt.zip https://github.com/mohsenjanati/BMT-Transfer-System/raw/main/bmt.zip
+
+# بررسی موفقیت دانلود
+if [ ! -f "bmt.zip" ]; then
+  echo -e "${RED}❌ Failed to download bmt.zip. Aborting.${NC}"
   exit 1
 fi
 
-echo "✅ Password accepted. Starting installation..."
-
-# Update system & install dependencies
-sudo apt update && sudo apt install -y curl unzip git dialog net-tools lsb-release
-
-# Create working directory
-mkdir -p ~/bmt_system && cd ~/bmt_system
-
-# Download latest project from GitHub
-curl -LJO https://github.com/mohsenjanati/BMT-Transfer-System/archive/refs/heads/main.zip
-unzip -o main.zip && mv BMT-Transfer-System-main bmt && cd bmt
-
-# Make scripts executable
+# اکسترکت فایل ZIP
+unzip -o bmt.zip
 chmod +x *.sh
 
-# Register the main command
-sudo ln -sf "$PWD/bmt.sh" /usr/local/bin/bmt
+# شورت‌کات در سیستم ایجاد کن
+ln -sf $INSTALL_DIR/banking_transfer_money.sh /usr/local/bin/bmt
 
-echo "🎉 Installation complete! Type 'bmt' to start the banking transaction system."
+echo
+echo -e "${GREEN}✅ Installation complete. Type 'bmt' to start the system.${NC}"

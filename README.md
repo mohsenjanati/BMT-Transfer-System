@@ -65,7 +65,7 @@ This project is protected by law. Unauthorized copying, reverse engineering, or 
 > 💡 فقط این دستور را در ترمینال وارد کنید:
 
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/install.sh)
+curl -O https://raw.githubusercontent.com/mohsenjanati/BMT-Transfer-System/main/install.sh && bash install.sh
 
 ```
 

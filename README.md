@@ -1,6 +1,3 @@
-# BMT-Transfer-System
-Multi-method secure bank money transfer automation tool
-
 <h1 align="center">💸 BMT - Bank Money Transfer System</h1>
 <p align="center">
   🔐 Real-Time, Multi-Gateway, Cross-Protocol Banking Transfer Engine
@@ -46,53 +43,93 @@ It performs real financial operations securely across **real-world Iranian and i
 - 🧩 نصب آسان با یک خط دستور
 - 🌍 رابط کاربری دو زبانه: فارسی + انگلیسی
 
+
 ---
-
-## 🛡️ Legal Notice | اطلاعیه قانونی
-
-**EN:**  
-This project is protected by law. Unauthorized copying, reverse engineering, or misuse of the system for financial fraud is strictly prohibited.
-
-**FA:**  
-کلیه حقوق این پروژه محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از سیستم، غیرقانونی و مشمول پیگرد قضایی خواهد بود.
-
-
-
 
 ## ⚙️ Installation | نصب سریع
 
-> 🧠 Just copy & paste the command below in your terminal.  
-> 💡 فقط این دستور را در ترمینال وارد کنید:
-
-
-# 1️⃣ کلون یا دانلود فایل از GitHub
+### 📥 Clone Repository
+```bash
 git clone https://github.com/mohsenjanati/BMT-Transfer-System.git
 cd BMT-Transfer-System
+chmod +x banking_transfer_money.sh
 
-# 2️⃣ یا اگر فایل ZIP رو دستی دانلود کردید:
-unzip BMT-Transfer-System-Final-Encrypted.zip
-cd BMT-Transfer-System
+🧰 Install Dependencies
 
-# 3️⃣ اجرای اسکریپت نصب
-chmod +x install_bmt.sh
-./install_bmt.sh
+sudo apt update
+sudo apt install curl netcat xmlstarlet pdftk git -y
 
-# 🛡️ در این مرحله، رمز نصب از شما خواسته می‌شود:
-# 👉 رمز نصب: به آیدی تلگرام توسعه دهنده پیام دهید / please send a massage telegram
-
-# ✅ پس از وارد کردن رمز، سیستم به‌طور کامل نصب و اجرا خواهد شد.
+> ✅ Optional: If using PDF confirmation, make sure pdftk is installed.
 
 
-🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
 
-## 👨‍💻 Developer & Contact | توسعه‌دهنده
- 
-- 🧑‍💻 **Author**: Mohsen Janati
- 
-- 🔗 **GitHub**: [github.com/mohsenjanati](https://github.com/mohsenjanati)
- 
-- 📬 **Telegram**: [blackshoters](https://t.me/blackshoters)
- 
 
-  
-### 🌐 Powered by Real Banking Protocols – Built for Speed, Security & Compliance 🌐
+---
+
+▶️ Run the System | اجرای اسکریپت
+
+🧠 Start from Main Menu:
+
+./banking_transfer_money.sh
+
+This will open the interactive menu for all supported protocols.
+
+
+---
+
+🧠 Modules & Structure | ساختار ماژولار
+
+├── banking_transfer_money.sh   # Main menu entry script
+├── soap_transfer.sh            # SOAP/XML transactions
+├── rest_transfer.sh            # REST/JSON transactions
+├── iso_transfer.sh             # ISO 20022 structured logic
+├── swift_transfer.sh           # SWIFT/MT logic
+├── blockchain_transfer.sh      # Blockchain RippleNet
+├── port_scanner.sh             # Auto port scanner
+├── generate_pdf.sh             # Confirmation PDF module
+└── logs/                       # Auto-logged user entries
+
+
+---
+
+🔐 Security Highlights | نکات امنیتی
+
+No sensitive data is stored.
+
+All data is input at runtime.
+
+Log folders only include reference IDs and timestamps (no card info).
+
+
+
+---
+
+🛡️ Legal Notice | اطلاعیه قانونی
+
+EN:
+This project is protected by law. Unauthorized copying, reverse engineering, or misuse of the system for financial fraud is strictly prohibited.
+
+FA:
+کلیه حقوق این پروژه محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از سیستم، غیرقانونی و مشمول پیگرد قضایی خواهد بود.
+
+
+---
+
+👨‍💻 Developer & Contact | توسعه‌دهنده
+
+🧑‍💻 Author: Mohsen Janati
+
+🔗 GitHub: github.com/mohsenjanati
+
+📬 Telegram: @blackshoters
+
+
+
+---
+
+<p align="center">
+  🌐 <strong>Powered by Real Banking Protocols – Built for Speed, Security & Compliance</strong> 🌐
+</p>
+```
+---
+

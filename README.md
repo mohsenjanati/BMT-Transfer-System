@@ -1,25 +1,25 @@
-<h1 align="center">💸 BMT - Bank Money Transfer System</h1>
-<p align="center">
-  🔐 Real-Time, Multi-Gateway, Cross-Protocol Banking Transfer Engine
-</p>
 
----
+# BMT-Transfer-System
+
+Multi-method secure bank money transfer automation tool
+
+# 💸 BMT - Bank Money Transfer System
+🔐 Real-Time, Multi-Gateway, Cross-Protocol Banking Transfer Engine    
 
 ## 🌍 Overview | معرفی کلی
 
 ### 🌐 English:
-**BMT** is the **world’s first fully-integrated, multi-protocol** banking transaction automation system — supporting **SOAP/XML**, **REST/JSON**, **SWIFT/MT**, **ISO 20022**, **Open Banking**, and **Blockchain** technologies.  
-It performs real financial operations securely across **real-world Iranian and international banks**, with automatic **port scanning**, **multi-phase transaction support**, **legal PDF confirmation**, and **interactive CLI** – all in one smart script.
+
+**BMT** is the **world’s first fully-integrated, multi-protocol** banking transaction automation system — supporting **SOAP/XML**, **REST/JSON**, **SWIFT/MT**, **ISO 20022**, **Open Banking**, and **Blockchain** technologies. It performs real financial operations securely across **real-world Iranian and international banks**, with automatic **port scanning**, **multi-phase transaction support**, **legal PDF confirmation**, and **interactive CLI** – all in one smart script.
 
 ### 🌐 فارسی:
-**BMT** اولین سیستم واقعی، خودکار و چندپروتکلی در دنیاست که تراکنش‌های بانکی را با استانداردهای جهانی و اتصال مستقیم به بانک‌های واقعی (ملت، رفاه، مسکن، شاپرک) انجام می‌دهد.  
-از تولید تأییدیه PDF گرفته تا اسکن پورت‌های بانکی، ساختار ماژولار و امنیت بالا، همه در یک اسکریپت تعاملی و شیک!
 
----
+**BMT** اولین سیستم واقعی، خودکار و چندپروتکلی در دنیاست که تراکنش‌های بانکی را با استانداردهای جهانی و اتصال مستقیم به بانک‌های واقعی (ملت، رفاه، مسکن، شاپرک) انجام می‌دهد. از تولید تأییدیه PDF گرفته تا اسکن پورت‌های بانکی، ساختار ماژولار و امنیت بالا، همه در یک اسکریپت تعاملی و شیک!
 
 ## 🚀 Features | ویژگی‌ها
 
 ### ✅ English Features:
+
 - 🔁 **Full Transaction Cycle**: Pay, Verify, Settle, Reverse
 - 🌐 **Protocols**: SOAP/XML, REST/JSON, SWIFT/MT, ISO 20022, Blockchain
 - 🏦 **Live Integration**: Mellat, Refah, Maskan, Shaparak
@@ -32,6 +32,7 @@ It performs real financial operations securely across **real-world Iranian and i
 - 🌍 **Multi-Language UI** – English + Persian
 
 ### ✅ ویژگی‌های فارسی:
+
 - 🔁 اجرای کامل چرخه‌ی تراکنش: پرداخت، تأیید، تسویه، بازگشت وجه
 - 🌐 پشتیبانی از پروتکل‌های بانکی جهانی: SOAP، REST، ISO، SWIFT، بلاکچین
 - 🏦 اتصال واقعی به درگاه‌های بانکی ایران: ملت، رفاه، مسکن، شاپرک
@@ -43,93 +44,45 @@ It performs real financial operations securely across **real-world Iranian and i
 - 🧩 نصب آسان با یک خط دستور
 - 🌍 رابط کاربری دو زبانه: فارسی + انگلیسی
 
+## 🛡️ Legal Notice | اطلاعیه قانونی
+
+**EN:** This project is protected by law. Unauthorized copying, reverse engineering, or misuse of the system for financial fraud is strictly prohibited.
+
+**FA:** کلیه حقوق این پروژه محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از سیستم، غیرقانونی و مشمول پیگرد قضایی خواهد بود.
+
+🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨
+
+## 👨‍💻 Developer & Contact | توسعه‌دهنده
+
+- 🧑‍💻 **Author**: Mohsen Janati
+- 🔗 **GitHub**: [github.com/mohsenjanati](https://github.com/mohsenjanati)
+- 📬 **Telegram**: [blackshoters](https://t.me/blackshoters)
 
 ---
 
-## ⚙️ Installation | نصب سریع
+## 🔧 نصب سریع / Quick Install Guide
 
-### 📥 Clone Repository
+### 🧰 مرحله ۱: دریافت فایل از گیت‌هاب | Clone from GitHub:
 ```bash
 git clone https://github.com/mohsenjanati/BMT-Transfer-System.git
 cd BMT-Transfer-System
-chmod +x banking_transfer_money.sh
-
-🧰 Install Dependencies
-
-sudo apt update
-sudo apt install curl netcat xmlstarlet pdftk git -y
-
-> ✅ Optional: If using PDF confirmation, make sure pdftk is installed.
-
-
-
-
----
-
-▶️ Run the System | اجرای اسکریپت
-
-🧠 Start from Main Menu:
-
-./banking_transfer_money.sh
-
-This will open the interactive menu for all supported protocols.
-
-
----
-
-🧠 Modules & Structure | ساختار ماژولار
-
-├── banking_transfer_money.sh   # Main menu entry script
-├── soap_transfer.sh            # SOAP/XML transactions
-├── rest_transfer.sh            # REST/JSON transactions
-├── iso_transfer.sh             # ISO 20022 structured logic
-├── swift_transfer.sh           # SWIFT/MT logic
-├── blockchain_transfer.sh      # Blockchain RippleNet
-├── port_scanner.sh             # Auto port scanner
-├── generate_pdf.sh             # Confirmation PDF module
-└── logs/                       # Auto-logged user entries
-
-
----
-
-🔐 Security Highlights | نکات امنیتی
-
-No sensitive data is stored.
-
-All data is input at runtime.
-
-Log folders only include reference IDs and timestamps (no card info).
-
-
-
----
-
-🛡️ Legal Notice | اطلاعیه قانونی
-
-EN:
-This project is protected by law. Unauthorized copying, reverse engineering, or misuse of the system for financial fraud is strictly prohibited.
-
-FA:
-کلیه حقوق این پروژه محفوظ است. هرگونه کپی‌برداری، مهندسی معکوس یا سوءاستفاده مالی از سیستم، غیرقانونی و مشمول پیگرد قضایی خواهد بود.
-
-
----
-
-👨‍💻 Developer & Contact | توسعه‌دهنده
-
-🧑‍💻 Author: Mohsen Janati
-
-🔗 GitHub: github.com/mohsenjanati
-
-📬 Telegram: @blackshoters
-
-
-
----
-
-<p align="center">
-  🌐 <strong>Powered by Real Banking Protocols – Built for Speed, Security & Compliance</strong> 🌐
-</p>
 ```
----
 
+### 🧰 مرحله ۲: یا استخراج فایل ZIP دانلود شده | Or unzip the archive:
+```bash
+unzip BMT-Transfer-System-Final-Encrypted.zip
+cd BMT-Transfer-System
+```
+
+### 🧰 مرحله ۳: اجرای اسکریپت نصب | Run the installer:
+```bash
+chmod +x install_bmt.sh
+./install_bmt.sh
+```
+
+### 🔑 رمز نصب | Installation Password:
+برای دریافت رمز نصب، لطفاً به تلگرام پیام دهید:
+```
+🔑 For the install password, contact Telegram: @blackshoters
+🔐 رمز نصب: با پیام به آیدی تلگرام [@blackshoters](https://t.me/blackshoters) دریافت خواهد شد.
+```
